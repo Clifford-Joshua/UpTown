@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.329041da.css",
-    "main.js": "/static/js/main.c3018490.js",
+    "main.css": "/static/css/main.78c5f952.css",
+    "main.js": "/static/js/main.5f727e5e.js",
+    "static/media/Aboul-Bg.png": "/static/media/Aboul-Bg.ad7e81be0dd305a88fea.png",
     "static/media/Up-town-.png": "/static/media/Up-town-.9bc4391643fad6178e5f.png",
     "static/media/Home-Bg.jpg": "/static/media/Home-Bg.448a4dc07004b1e0c1f6.jpg",
     "static/media/Footer-img.png": "/static/media/Footer-img.2f9b9885225995ee44e1.png",
     "static/media/City-Logo.jpg": "/static/media/City-Logo.29e03456f68c09f326ef.jpg",
     "index.html": "/index.html",
-    "main.329041da.css.map": "/static/css/main.329041da.css.map",
-    "main.c3018490.js.map": "/static/js/main.c3018490.js.map"
+    "main.78c5f952.css.map": "/static/css/main.78c5f952.css.map",
+    "main.5f727e5e.js.map": "/static/js/main.5f727e5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.329041da.css",
-    "static/js/main.c3018490.js"
+    "static/css/main.78c5f952.css",
+    "static/js/main.5f727e5e.js"
   ]
 }
