@@ -1,0 +1,206 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* root */
+:root {
+  --font-big: 25px;
+  --font-size: 15px;
+  --nav-bg: #a594f9;
+  --padding-big: 40px;
+  --font-sizing: auto;
+  --font-style: normal;
+  --padding-small: 10px;
+  --color--big: white;
+  --font-weight-600: 600;
+  --padding-biggest: 70px;
+  --logo-margin--600: 15px;
+  --font-variation: "wdth" 100;
+  --trnasition-all: 1s all linear;
+  --text-shadows: 2px 2px black;
+  --font-family: "Noto Serif", serif;
+  --box-shadows: 1px 1px 1px 3px #c200fb;
+  --font-family-logo: "Kalnia Glaze", serif;
+  --font-bigger: clamp(3.5rem, 12vw + 1rem, 10rem);
+}
+/* imported font-style */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Leckerli+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kalnia+Glaze:wght@100..700&family=Leckerli+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+.logo {
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-600);
+  font-optical-sizing: var(--font-sizing);
+  font-variation-settings: var(--font-variation);
+}
+body {
+  font-family: var(--font-family);
+}
+/*==== Nav ==== */
+nav {
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  text-align: center;
+  padding: var(--padding-small) var(--padding-big);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* ==nav logo */
+.logo {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  text-shadow: var(--text-shadows);
+  font-family: var(--font-family-logo);
+}
+/* ==logo img=== */
+.logo img {
+  display: block;
+  max-width: 40px;
+  min-height: 40px;
+  border-radius: 6px;
+  box-shadow: var(--box-shadows);
+  margin-right: var(--padding-small);
+}
+/* ==nav blur== */
+.nav-blur {
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  filter: blur(20px);
+  position: absolute;
+  background-color: var(--nav-bg);
+}
+/* ==NavLink=== */
+.Nav-Links {
+  width: 75%;
+}
+/* ===Links== */
+.Links {
+  gap: 20px;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+/* ==NavLinks Class==== */
+.lawn {
+  color: white;
+}
+.lawn:hover {
+  color: blue;
+}
+/* ===ctive Link Style=== */
+.active {
+  color: black;
+  border-bottom: 3px solid;
+  padding: var(--padding-small);
+}
+/* ===ALL Pages */
+.pages {
+  max-width: 100%;
+  min-height: 100vh;
+  padding-top: var(--padding-biggest);
+}
+/* ==Homepage === */
+.Homepage {
+  color: white;
+  text-align: center;
+  text-shadow: var(--text-shadows);
+  background: url("./Images/Home-Bg.jpg") center / cover no-repeat;
+}
+/* ==Container for Better layout for pages=== */
+.home-text {
+  min-height: 130px;
+  font-size: var(--font-size);
+  padding-top: var(--logo-margin--600);
+}
+/* ====Big text= ==== */
+.home-text h2 {
+  font-size: var(--font-big);
+}
+/*=====  Logo ==== */
+.Homepage img,
+.footer img {
+  width: 100%;
+  height: 100px;
+  display: block;
+  object-fit: contain;
+}
+.home-welcome {
+  padding-top: 65px;
+  font-size: var(--font-big);
+}
+/* ===Biggest text style with different font size=== */
+.big-text {
+  font-size: var(--font-bigger);
+  font-family: var(--font-family-logo);
+}
+/* ==toggle btn ==*/
+.toggle-btn {
+  display: none;
+}
+/* ==Footer== */
+.footer {
+  position: relative;
+  text-align: center;
+  background-color: rgb(190, 204, 220);
+}
+.footer h2 {
+  text-shadow: var(--text-shadows);
+  font-family: var(--font-family-logo);
+}
+
+/* ====phone size === */
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  nav {
+    flex-direction: column;
+    padding: var(--padding-small);
+  }
+  .logo {
+    width: 100%;
+  }
+  .Nav-Links {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: var(--trnasition-all);
+  }
+
+  .Links {
+    row-gap: 25px;
+    padding: 20px 0;
+    height: fit-content;
+    justify-content: left;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer img {
+    height: 60px;
+  }
+  .toggle-btn {
+    top: 15px;
+    right: 15px;
+    display: block;
+    padding: 6px 20px;
+    position: absolute;
+    border-radius: 10px;
+    color: var(--nav-bg);
+    background-color: black;
+    font-size: var(--font-size);
+    box-shadow: var(--box-shadows);
+  }
+}
