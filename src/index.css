@@ -18,9 +18,11 @@
   --font-weight-600: 600;
   --padding-biggest: 70px;
   --logo-margin--600: 15px;
+  --darkgray-color: #581908;
   --font-variation: "wdth" 100;
   --trnasition-all: 1s all linear;
   --text-shadows: 2px 2px black;
+  --slantgray-background: #f4f3ee;
   --font-family: "Noto Serif", serif;
   --box-shadows: 1px 1px 1px 3px #c200fb;
   --font-family-logo: "Kalnia Glaze", serif;
@@ -44,6 +46,7 @@ body {
 nav {
   top: 0;
   width: 100%;
+  z-index: 222;
   display: flex;
   flex-wrap: wrap;
   position: fixed;
@@ -55,6 +58,24 @@ a {
 }
 ul {
   list-style-type: none;
+}
+
+img {
+  display: block;
+}
+.links {
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  font-size: var(--font-big);
+  padding: var(--padding-small);
+  margin-top: var(--padding-big);
+  font-weight: var(--font-weight-600);
+  border: 3px solid var(--darkgray-color);
+}
+.links:hover {
+  background-color: orange;
+  color: var(--slantgray-background);
 }
 /* ==nav logo */
 .logo {
@@ -133,6 +154,17 @@ ul {
 .home-text h2 {
   font-size: var(--font-big);
 }
+/* ====page setup=== */
+.pagesetup {
+  min-height: 90vh;
+  background-color: var(--slantgray-background);
+}
+
+/* ==logoo family font = */
+.new-font {
+  font-size: var(--padding-big);
+  font-family: var(--font-family-logo);
+}
 /*=====  Logo ==== */
 .Homepage img,
 .footer img {
@@ -163,6 +195,23 @@ ul {
 .footer h2 {
   text-shadow: var(--text-shadows);
   font-family: var(--font-family-logo);
+}
+/* ===two split div == */
+.two-div {
+  display: flex;
+}
+.about-bg {
+  width: 40%;
+  background-color: #e8e8e5bc;
+}
+
+.coloum-set {
+  width: 60%;
+  display: grid;
+  column-gap: 20px;
+  align-items: center;
+  font-size: var(--font-size);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 /* ====phone size === */
@@ -202,5 +251,38 @@ ul {
     background-color: black;
     font-size: var(--font-size);
     box-shadow: var(--box-shadows);
+  }
+  .two-div {
+    position: relative;
+    flex-direction: column;
+  }
+  .two-div > *:not(.about-bg) {
+    top: 0;
+    width: 100%;
+    color: black;
+    min-height: 90vh;
+    position: absolute;
+    background-color: #e8e8e5bc;
+    padding: var(--padding-small);
+  }
+  .about-bg {
+    width: 100%;
+  }
+  .about-bg img {
+    width: 100%;
+  }
+}
+/* ====Ipad=== */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .two-div {
+    display: grid;
+  }
+  .about-bg,
+  .coloum-set {
+    width: 100%;
+    height: 100%;
+  }
+  .coloum-set {
+    padding: var(--padding-big);
   }
 }
