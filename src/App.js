@@ -5,10 +5,10 @@ import Homepage from "./pages/Home";
 import Contact from "./pages/Contact";
 import Sharedpage from "./Sharedpage";
 import Highrise from "./pages/Highrise";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Sharedpage />}>
           <Route index element={<Homepage />} />
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
