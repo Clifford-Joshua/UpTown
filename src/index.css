@@ -406,4 +406,11 @@ textarea {
   .coloum-set {
     padding: var(--padding-big);
   }
+  .contact{
+    padding: var(--padding-small);
+  }
+  .contact-holder {
+    max-width: 100%;
+  }
+
 }
