@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UpTown//static/css/main.d74ca9f9.css",
+    "main.css": "/UpTown//static/css/main.fdc55914.css",
     "main.js": "/UpTown//static/js/main.21690eeb.js",
     "static/media/Aboul-Bg.png": "/UpTown//static/media/Aboul-Bg.ad7e81be0dd305a88fea.png",
     "static/media/Up-town-.png": "/UpTown//static/media/Up-town-.9bc4391643fad6178e5f.png",
@@ -10,11 +10,11 @@
     "static/media/Contact-Bg.jpg": "/UpTown//static/media/Contact-Bg.0645a9357ea5ed97c3b3.jpg",
     "static/media/Contact-Bg2.jpg": "/UpTown//static/media/Contact-Bg2.2b5c301f3511eba5db18.jpg",
     "index.html": "/UpTown//index.html",
-    "main.d74ca9f9.css.map": "/UpTown//static/css/main.d74ca9f9.css.map",
+    "main.fdc55914.css.map": "/UpTown//static/css/main.fdc55914.css.map",
     "main.21690eeb.js.map": "/UpTown//static/js/main.21690eeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74ca9f9.css",
+    "static/css/main.fdc55914.css",
     "static/js/main.21690eeb.js"
   ]
 }
