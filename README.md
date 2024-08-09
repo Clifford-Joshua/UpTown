@@ -1,6 +1,9 @@
 # Getting Started with Create React App
+
 # Trying out new idea in css for best responsive/Learning Css/yet to perfect my css
+
 # Trying out react-router
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Highrise = () => {
   return (
     <section className=" pages">
-      <div className="pagesetup coloum-set full-width highrise">
+      <div className="pagesetup coloum-set full-width highrise full-height-width full-height-width-ipad">
         <ul className="high-rise-link">
           <li>
             <Link className="high-link">Signature</Link>

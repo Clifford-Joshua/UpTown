@@ -6,10 +6,10 @@ const About = () => {
     <section className="pages">
       {/* ==pageSetUp=== */}
       <div className="pagesetup two-div">
-        <div className="about-bg">
-          <img src={AboutImg} alt="About-bg" />
+        <div className="about-bg ">
+          <img src={AboutImg} alt="About-bg" className="full-height-width" />
         </div>
-        <div className="coloum-set">
+        <div className="coloum-set static-height">
           <div>
             <h2 className="new-font">About</h2>
             <p>

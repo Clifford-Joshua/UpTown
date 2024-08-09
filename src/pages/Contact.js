@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <section className="pages">
-      <div className="contact pagesetup ">
+      <div className="contact pagesetup full-height-width-ipad">
         <div className="contact-two-div contact-holder">
           <div className="flex-item spacing">
             <h3 className="new-font header">CONTACT US</h3>
