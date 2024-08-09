@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/UpTown//static/css/main.fdc55914.css",
-    "main.js": "/UpTown//static/js/main.21690eeb.js",
+    "main.css": "/UpTown//static/css/main.9c15d4e9.css",
+    "main.js": "/UpTown//static/js/main.5e4158a0.js",
     "static/media/Aboul-Bg.png": "/UpTown//static/media/Aboul-Bg.ad7e81be0dd305a88fea.png",
     "static/media/Up-town-.png": "/UpTown//static/media/Up-town-.9bc4391643fad6178e5f.png",
+    "static/media/IT-Mangement.jpg": "/UpTown//static/media/IT-Mangement.08f709defed185fbf6dd.jpg",
     "static/media/Home-Bg.jpg": "/UpTown//static/media/Home-Bg.448a4dc07004b1e0c1f6.jpg",
+    "static/media/NTF.jpg": "/UpTown//static/media/NTF.1eeaaa46c14456fa3fcd.jpg",
     "static/media/Footer-img.png": "/UpTown//static/media/Footer-img.2f9b9885225995ee44e1.png",
+    "static/media/appleglass.png": "/UpTown//static/media/appleglass.02f9c603926d5dff7ab1.png",
     "static/media/City-Logo.jpg": "/UpTown//static/media/City-Logo.29e03456f68c09f326ef.jpg",
     "static/media/Contact-Bg.jpg": "/UpTown//static/media/Contact-Bg.0645a9357ea5ed97c3b3.jpg",
     "static/media/Contact-Bg2.jpg": "/UpTown//static/media/Contact-Bg2.2b5c301f3511eba5db18.jpg",
+    "static/media/masked.jpg": "/UpTown//static/media/masked.ac39a4104547fb25388e.jpg",
     "index.html": "/UpTown//index.html",
-    "main.fdc55914.css.map": "/UpTown//static/css/main.fdc55914.css.map",
-    "main.21690eeb.js.map": "/UpTown//static/js/main.21690eeb.js.map"
+    "main.9c15d4e9.css.map": "/UpTown//static/css/main.9c15d4e9.css.map",
+    "main.5e4158a0.js.map": "/UpTown//static/js/main.5e4158a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdc55914.css",
-    "static/js/main.21690eeb.js"
+    "static/css/main.9c15d4e9.css",
+    "static/js/main.5e4158a0.js"
   ]
 }
